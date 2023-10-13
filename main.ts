@@ -11,8 +11,7 @@ myMenu.onButtonPressed(controller.B, function (selection, selectedIndex) {
         )
         myMenu2.onButtonPressed(controller.B, function (selection, selectedIndex) {
             if (selection == "yes") {
-                myMenu2.close()
-                myMenu.close()
+                game.splash("haha", "you are stuck in a loop")
             } else {
                 myMenu2.close()
             }
